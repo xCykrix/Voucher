@@ -1,0 +1,23 @@
+name: 'Voucher'
+description: 'In-game whitelist for players to join communities.'
+website: 'https://www.spigotmc.org/resources/voucher/'
+author: 'xCykrix'
+version: '${project.version}'
+
+main: com.github.xcykrix.voucher.Voucher
+api-version: '1.18'
+load: 'POSTWORLD'
+
+depend:
+  - 'ProtocolLib'
+
+permissions:
+  voucher.add:
+    description: "Grant a player access to the world."
+    default: op
+  voucher.remove:
+    description: "Revoke a player's access to the world."
+    default: op
+  voucher.bypass:
+    description: "Grant a player access to bypass Voucher's world protections."
+    default: op

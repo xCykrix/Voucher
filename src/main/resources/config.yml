@@ -1,0 +1,17 @@
+# Protections to Enable.
+prevent-interact: true # PlayerInteractEvent
+prevent-entity-interact: true # PlayerInteractEntityEvent
+prevent-armor-stand-interact: true # PlayerArmorStandManipulateEvent
+prevent-block-place: true # BlockPlaceEvent
+prevent-block-break: true # BlockBreakEvent
+prevent-item-pickup: true # EntityPickupItemEvent
+prevent-item-drop: true # PlayerDropItemEvent
+prevent-damage: true # EntityDamageEvent
+prevent-hunger: true # FoodLevelChangeEvent
+prevent-edit-book: true # PlayerEditBookEvent
+prevent-hanging-place: true # HangingPlaceEvent
+prevent-hanging-break: true # HangingBreakByEntityEvent
+
+# DO NOT EDIT THE VERSION. Manual edits may corrupt or reset configuration files.
+#
+version: 1

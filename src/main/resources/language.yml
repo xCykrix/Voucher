@@ -1,0 +1,27 @@
+###
+# Language File - Adventure API MiniMessage
+#
+# I recommend backing up this file in the event an update causes translations to be reset.
+#
+# General: https://docs.advntr.dev/minimessage/index.html
+# Formatting: https://docs.advntr.dev/minimessage/format.html#minimessage-format
+#
+# Realtime Editor: https://webui.advntr.dev/
+###
+
+###
+# Used as the Plugin's Chat and Console Prefix. Available in all "language." components as "<prefix>".
+###
+chat-prefix: "<dark_gray>[</dark_gray><gold>Voucher</gold><dark_gray>]</dark_gray>"
+
+# Language Index
+language:
+  add: "<prefix> <gray>Voucher added for <target>.</gray>"
+  add-exists: "<prefix> <gray>Voucher already exists for <target>.</gray>"
+  remove: "<prefix> <gray>Voucher removed for <target>.</gray>"
+  remove-unknown: "<prefix> <gray>Voucher not found for <target>.</gray>"
+  reject-interaction: "<prefix> <gray>You are not authorized by a Voucher. Please ask the player who invited you to run \"/voucher add <target>\"."
+
+# DO NOT EDIT THE VERSION. Manual edits may corrupt or reset configuration files.
+#
+version: 1
