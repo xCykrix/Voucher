@@ -12,6 +12,7 @@ Commands
 - /voucher remove <player> (voucher.remove)
   - Revokes a Voucher that has been assigned to a player and denies further interaction with the world.
 
+Users with voucher.bypass will be excluded from interaction checks.
 
 ## Documentation
 
@@ -41,12 +42,11 @@ version: 1
 
 #### How does this plugin work?
 
-Voucher works by hooking into the Spigot Event System to block key player interaction events until they have been granted a "Voucher".
-
+Voucher works by hooking into the Event System and blocking key events that will prevent unauthorized access to the server.
 
 ## Deployment
 
-This plugin is based on the PluginCommon API. Updates to PluginCommon will provide verioned and shaded assets associated with this plugin.
+This plugin is based on the PluginCommon API. Updates to PluginCommon will provide versioned and shaded assets associated with this plugin.
 
 1. Update POM XML Plugins and Dependencies.
 2. Update POM XML Version.
