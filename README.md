@@ -14,35 +14,13 @@ Commands
 
 Users with voucher.bypass will be excluded from interaction checks.
 
-## Documentation
-
-config.yml
-
-```yml
-# Protections to Enable.
-prevent-interact: true # PlayerInteractEvent
-prevent-entity-interact: true # PlayerInteractEntityEvent
-prevent-armor-stand-interact: true # PlayerArmorStandManipulateEvent
-prevent-block-place: true # BlockPlaceEvent
-prevent-block-break: true # BlockBreakEvent
-prevent-item-pickup: true # EntityPickupItemEvent
-prevent-item-drop: true # PlayerDropItemEvent
-prevent-damage: true # EntityDamageEvent
-prevent-hunger: true # FoodLevelChangeEvent
-prevent-edit-book: true # PlayerEditBookEvent
-prevent-hanging-place: true # HangingPlaceEvent
-prevent-hanging-break: true # HangingBreakByEntityEvent
-
-# DO NOT EDIT THE VERSION. Manual edits may corrupt or reset configuration files.
-#
-version: 1
-```
 
 ## FAQ
 
 #### How does this plugin work?
 
 Voucher works by hooking into the Event System and blocking key events that will prevent unauthorized access to the server.
+
 
 ## Deployment
 
